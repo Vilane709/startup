@@ -1,0 +1,184 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+nav {
+	text-align: center;
+	padding: 20px;
+	position: fixed;
+	background-color: white;
+	width: 100%;
+	opacity: 0.7;
+}
+nav a {
+	text-decoration: none;
+	color: black;
+	display: inline-block;
+	width: 100px;
+}
+nav a:hover {
+	background-color: #ccc;
+}
+header {
+	text-align: center;
+	background-image: url(images/polygons.png);
+	color: white;
+	padding: 200px 0;
+	background-repeat: no-repeat;
+	background-position: top center;
+	background-size: cover;
+	margin-right: 20%;
+	margin-left: 20%;
+}
+header a {
+	background-color: white;
+	color: black;
+	display: inline-block;
+	text-align: center;
+	margin: 0 5%;
+	width: 20%;
+	padding: 14px 0;
+	border-radius: 15px;
+	text-decoration: none;
+}
+header a:hover {
+	background-color: black;
+	color: white;
+}
+.text {
+	display: flex;
+}
+.text p {
+	text-align: justify;
+}
+h2 {
+	text-align: center;
+}
+.about_company {
+	margin-right: 20%;
+	margin-left: 20%;
+}
+.text img {
+	width: 30%;
+	height: 250px;
+}
+.container_member {
+	display: flex;
+}
+.slogan {
+	text-align: center;
+}
+.container_member div {
+	width: 23%;
+	padding: 0.5%;
+	margin-right: 1%;
+	margin-bottom: 1%;
+	margin-left: 1%;
+	border: grey solid 3px;
+}
+.member_img {
+	width: 100%;
+}
+.work {
+	color: gray;
+}
+.container_member a {
+	background-color: #055b73;
+	color: white;
+	display: inline-block;
+	text-align: center;
+	margin: 0 5%;
+	width: 90%;
+	padding: 14px 0;
+	border-radius: 20px;
+	text-decoration: none;
+}
+
+.tarifs {
+	background-color: #373b38;
+	color: white;
+	padding: 20px;
+	text-align: center;
+}
+.tarifs li {
+	list-style-type: none; /*убираем маркеры списка*/
+	border-bottom: silver solid 2px;
+}
+ul {
+	width: 90%;
+	background-color: white;
+	padding: 0;
+	margin: 15px auto;
+	color: black;
+	vertical-align: middle;
+}
+.odd {
+	background-color: black;
+	padding: 20px 0;
+	color: white;
+}
+.even {
+	background-color: #055b73;
+	padding: 30px 0;
+	color: white;
+}
+.ul_content {
+	padding: 15px 0;
+}
+.tarifs a {
+	background-color: black;
+	color: white;
+	display: inline-block;
+	text-align: center;
+	margin: 0 5%;
+	width: 40%;
+	padding: 14px 0;
+	border-radius: 15px;
+	text-decoration: none;
+}
+.contacts {
+	background-color: silver;
+	padding: 30px;
+}
+.contacts h2 {
+	margin: 0;
+}
+.mail {
+	margin-bottom: 10px;
+}
+.adress {
+	background-image: url(images/address.png);
+}
+.phone {
+	background-image: url(images/phone.png);
+}
+.mail {
+	background-image: url(images/mail.png);
+}
+.adress, .phone, .mail {
+	background-repeat: no-repeat;
+	background-size: 18px 18px;
+	padding-left: 20px;
+}
+input {
+	width: 100%;
+	margin-bottom: 10px;
+	padding: 3px;
+	border-color: white;
+}
+.submit {
+	padding: 15px 0;
+	color: white;
+	background-color: black;
+	border-radius: 10px;
+	border-color: black;
+	width: 15%;
+	margin-left: 43%;
+}
+footer {
+	color: white;
+	background-color: black;
+}
+footer p {
+	margin: 0;
+}
